@@ -7,9 +7,9 @@ void main()
 	int	fahr, celsius;
 	int	lower, upper, step;
 
-	lower = 0;    // нижняя граница температуры
-	upper = 300;  // верхняя граница температуры 
-	step = 20;    // размер шага
+	lower = 0;    //  нижняя граница температуры
+	upper = 300;  //  верхняя граница температуры 
+	step = 20;    //  размер шага
 
 	fahr = lower;
 	while (fahr <= upper)
