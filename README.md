@@ -17,3 +17,10 @@ all:
     while (getchar() != EOF)
       nc++;
 	  printf("%ld\n", nc++);
+
+1.5.3/example.c
+  book version:
+    while ((c = getchar()) != EOF)
+      if (c == '\n')
+      	nl++;
+	  printf("%d\n", nl);
